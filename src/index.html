@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito de Compras - JS</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>El almacén de Reny</h1>
+    </header>
+    <div class="main-container">
+      <!-- Items productos -->
+      <main>
+        <h2>Productos</h2>
+        <div id="contenedor-productos"></div>
+      </main>
+
+      <!-- Carrito -->
+      <aside>
+        <h2>Carrito</h2>
+        <div id="contenedor-carrito">
+          <button onclick="funcComprar()" class="btn-comprar">Comprar!</button>
+          <ul id="lista-compra"></ul>
+          
+          <p id="precio-total"></p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p>Consigna: Desarrollar un “carrito de compras” donde el usuario presione sobre cada producto y el
+        mismo quede guardado en el carrito. Luego, al oprimir el botón “Comprar”, calcular el
+        importe final y mostrar los productos comprados junto con el total a pagar. Solo puede
+        comprar una unidad de cada producto.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
